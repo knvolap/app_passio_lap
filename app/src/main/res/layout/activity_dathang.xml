@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Danh sách món (1)"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="160dp"
+            android:src="@drawable/ic_close"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="102dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ts_1" />
+
+        <LinearLayout
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Iced Eapresso"
+                android:textColor="#000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="138dp"
+                android:layout_height="61dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="1 x 25.000đ"
+                android:textColor="#000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/infoTxtCredits"
+        android:layout_width="396dp"
+        android:layout_height="22dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:autoLink="web"
+        android:linksClickable="true" />
+
+    <LinearLayout
+        android:layout_width="399dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_bg_trang"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:paddingLeft="15dp"
+            android:text="Số lượng"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/imageButtonTru"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@color/bgTopNavigation"
+            app:tint="#ffffff"
+            app:srcCompat="@drawable/ic_remove" />
+
+        <TextView
+            android:id="@+id/txtSoLuong"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="1"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonCong"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:background="@color/bgTopNavigation"
+            app:tint="#ffffff"
+            app:srcCompat="@drawable/ic_add" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/infoTxtCredits2"
+        android:layout_width="396dp"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:autoLink="web"
+        android:linksClickable="true" />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/bt_themGioHang"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round_bg_nau"
+        android:text="Thêm vào giỏ hàng"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>

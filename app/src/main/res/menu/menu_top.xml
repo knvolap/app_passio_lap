@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_profile1"
+        android:icon="@drawable/ic_profile2"
+        android:title="" />
+
+    <item
+        android:id="@+id/menu_profile2"
+        android:title="Võ Lập" />
+    <item
+        android:id="@+id/menu_gift"
+        android:icon="@drawable/ic_gift"
+        android:title="" />
+    <item
+        android:id="@+id/menu_map"
+        android:icon="@drawable/ic_map"
+        android:title="" />
+
+    <item
+        android:id="@+id/menu_thongbao"
+        android:icon="@drawable/ic_thongbao"
+        android:title="" />
+</menu>

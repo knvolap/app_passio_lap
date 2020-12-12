@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.BlankFragment_chonmon_1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <GridView
+        android:id="@+id/gridview_frgm_1"
+        android:layout_width="386dp"
+        android:layout_height="668dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:numColumns="2"
+        android:padding="0dp" />
+
+</FrameLayout>
